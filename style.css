@@ -1,130 +1,138 @@
-*{
-   margin: 0;
-   padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    padding: 5px;   
+
+body {
+    padding: 5px;
 }
-#inputCity{
+
+#inputCity {
     width: 50%;
-    margin:auto;
+    margin: auto;
     padding: 10px;
     box-shadow: 3px 5px 10px 0px rgba(50, 50, 50, 0.58);
 }
-.btn{
+
+.btn {
     width: 30%;
     margin-left: 400px;
-    margin-top: 15px; 
+    margin-top: 15px;
 }
-.header{
-    background-image: 
-     linear-gradient(to right bottom, rgba(226, 239, 253, 0.7), rgba(120, 121, 121, 0.7)),
-    url(./images/arriere_plan.jpg);
+
+.header {
+    background-image: linear-gradient(to right bottom, rgba(226, 239, 253, 0.7), rgba(120, 121, 121, 0.7)), url(./images/arriere_plan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 140vh;
     padding: 35px;
 }
-.box-container{
-  border: 0px black solid;
-  width: 50%;
-  margin: auto;
-  margin-top: 80px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+
+.box-container {
+    border: 0px black solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-#city{
-  width: 260px;
-  height: 200px;
-  border-top-left-radius: 25px;
-  background-image: url(./images/ville.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 35px;
-  font-weight: 900;
-  text-align: center;
-  padding-top: 70px;
-  color: white;
+
+#city {
+    width: 260px;
+    height: 200px;
+    border-top-left-radius: 25px;
+    background-image: url(./images/ville.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
 }
-#temp{
-  width: 260px;
-  height: 200px;
-  border-top-right-radius: 25px;
-  background-image: url(./images/temp.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 30px;
-  font-weight: 900;
-  text-align: center;
-  padding-top: 10px;
-  padding-left: 30px;
+
+#temp {
+    width: 260px;
+    height: 200px;
+    border-top-right-radius: 25px;
+    background-image: url(./images/temp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
 }
-#humidity{
-  width: 260px;
-  height: 200px;
-  background-image: url(./images/humidity.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom-left-radius: 25px;
-  font-size: 35px;
-  font-weight: 900;
-  text-align: center;
-  padding-top: 90px;
-  padding-left: 30px;
+
+#humidity {
+    width: 260px;
+    height: 200px;
+    background-image: url(./images/humidity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 30px;
 }
-#wind{
-  width: 260px;
-  height: 200px;
-  background-image: url(./images/wind.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom-right-radius: 25px;
-  font-size: 27px;
-  font-weight: 900;
-  text-align: center;
-  padding-top: 30px;
-  padding-left: 30px;
+
+#wind {
+    width: 260px;
+    height: 200px;
+    background-image: url(./images/wind.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 25px;
+    font-size: 27px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
 }
-@media (max-width: 768px){
-  body{
-    padding: 5px;   
-}
-#inputCity{
-    width: 100%;
-}
-.btn{
-    width: 80%;
-    margin-left: 40px;
-}
-.header{
-    height: 120vh;
-    padding: 35px;
-    background-position: top;
-}
-.box-container{
-  width: 100%;
-  margin-top: 50px;
-}
-#city{
-  width: 200px;
-  height: 150px;
-  border-radius: 25px;
-}
-#temp{
-  width: 200px;
-  height: 150px;
-  border-radius: 25px;
-}
-#humidity{
-  width: 200px;
-  height: 150px;
-  border-radius: 25px;
-}
-#wind{
-  width: 200px;
-  height: 150px;
-  border-radius: 25px;
-}
+
+@media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+    #inputCity {
+        width: 100%;
+    }
+    .btn {
+        width: 50%;
+        margin-left: 50px;
+    }
+    .header {
+        height: 100%;
+        padding: 35px;
+        background-position: top;
+    }
+    .box-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+    #city {
+        width: 200px;
+        height: 150px;
+        border-radius: 25px;
+    }
+    #temp {
+        width: 200px;
+        height: 150px;
+        border-radius: 25px;
+    }
+    #humidity {
+        width: 200px;
+        height: 150px;
+        border-radius: 25px;
+    }
+    #wind {
+        width: 200px;
+        height: 150px;
+        border-radius: 25px;
+    }
 }
